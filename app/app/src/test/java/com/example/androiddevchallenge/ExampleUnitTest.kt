@@ -15,21 +15,11 @@
  */
 package com.example.androiddevchallenge
 
-import android.os.Bundle
-import androidx.activity.compose.setContent
-import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.material.ExperimentalMaterialApi
-import androidx.compose.runtime.CompositionLocalProvider
-import androidx.navigation.compose.rememberNavController
-
-class MainActivity : AppCompatActivity() {
-    @ExperimentalFoundationApi
-    @ExperimentalMaterialApi
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            PuppyApp()
-        }
-    }
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+class ExampleUnitTest {
+    // Add unit tests here
 }
